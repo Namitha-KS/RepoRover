@@ -1,99 +1,54 @@
-# [Project Name] 🎯
 
+
+# RepoRover🎯
 
 ## Basic Details
-### Team Name: [Name]
-
+### Team Name: unSupervised
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
-
-### Hosted Project Link
-[mention your project hosted project link here]
+- Namitha - LBS Institute of Technology for Women
 
 ### Project Description
-[2-3 lines about what your project does]
+RepoRover is an AI-driven tool that automatically generates documentation for GitHub repositories. By simply providing a repository link, users can get a comprehensive README file, a detailed project report, and essential assets like system diagrams and GitHub workflow visuals. RepoRover aims to streamline the process of writing technical documentation, especially for developers, saving them time and effort.
 
-### The Problem statement
-[What ridiculous problem are you solving?]
+### The Problem Statement
+Many developers struggle with writing and maintaining comprehensive documentation for their GitHub repositories. RepoRover addresses this by automating the process, making it easier to focus on writing code rather than documentation.
 
 ### The Solution
-[How are you solving it? Keep it fun!]
+RepoRover uses AI to analyze a GitHub repository and generates a structured README file, project report, and visual assets. It extracts the relevant details like project description, technologies used, and repository structure, and creates documentation in minutes, making the process much more efficient and fun!
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- **Languages used**: Python
+- **Frameworks used**: Gradio (for UI), Gemini API (for content generation)
+- **Libraries used**: GenAI (for AI content generation), PDF Generator, GitHub API (for repository scraping)
+- **Tools used**: GitHub, Gradio, Python IDE
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+#### Installation
+To get started, clone the repository and install the necessary dependencies:
+```bash
+git clone [insert repo link here]
+cd RepoRover
+pip install -r requirements.txt
+```
 
-### Implementation
-For Software:
-# Installation
-[commands]
-
-# Run
-[commands]
-
-### Project Documentation
-For Software:
-
-# Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
-
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
-
-# Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
-
-For Hardware:
-
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-# Build Photos
-![Team](Add photo of your team here)
+#### Run
+To run the application:
+```bash
+python main.py
+```
 
 
-![Components](Add photo of your components here)
-*List out all components shown*
+#### Screenshots (Add at least 3)
+![Screenshot1](screenshot1.png)
 
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
+![Screenshot2](screenshot2.png)
 
 ### Project Demo
-# Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+#### Video
 
-# Additional Demos
-[Add any extra demo materials/links]
-
-## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
 
 ---
 Made with ❤️ at TinkerHub
+

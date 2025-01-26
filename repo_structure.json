@@ -1,0 +1,294 @@
+{
+    "files": [
+        "data.yaml",
+        "input.jpg",
+        "main.py",
+        "output.png",
+        "requirements.txt",
+        "yolov8n.pt"
+    ],
+    "directories": {
+        "datasets": {
+            "files": [],
+            "directories": {
+                "trainingdata": {
+                    "files": [],
+                    "directories": {
+                        "train": {
+                            "files": [
+                                "labels.cache"
+                            ],
+                            "directories": {
+                                "images": {
+                                    "files": [
+                                        "image1.jpg",
+                                        "image2.jpg",
+                                        "image3.jpg"
+                                    ],
+                                    "directories": {}
+                                },
+                                "labels": {
+                                    "files": [
+                                        "image1.txt",
+                                        "image2.txt",
+                                        "image3.txt"
+                                    ],
+                                    "directories": {}
+                                }
+                            }
+                        },
+                        "val": {
+                            "files": [
+                                "labels.cache"
+                            ],
+                            "directories": {
+                                "images": {
+                                    "files": [
+                                        "image.jpg"
+                                    ],
+                                    "directories": {}
+                                },
+                                "labels": {
+                                    "files": [
+                                        "image.txt"
+                                    ],
+                                    "directories": {}
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "runs": {
+            "files": [],
+            "directories": {
+                "detect": {
+                    "files": [],
+                    "directories": {
+                        "train": {
+                            "files": [
+                                "F1_curve.png",
+                                "PR_curve.png",
+                                "P_curve.png",
+                                "R_curve.png",
+                                "args.yaml",
+                                "confusion_matrix.png",
+                                "confusion_matrix_normalized.png",
+                                "events.out.tfevents.1734102151.NAMITHA-S.16552.0",
+                                "labels.jpg",
+                                "labels_correlogram.jpg",
+                                "results.csv",
+                                "results.png",
+                                "train_batch0.jpg",
+                                "train_batch1.jpg",
+                                "train_batch2.jpg",
+                                "train_batch90.jpg",
+                                "train_batch91.jpg",
+                                "train_batch92.jpg",
+                                "val_batch0_labels.jpg",
+                                "val_batch0_pred.jpg"
+                            ],
+                            "directories": {
+                                "weights": {
+                                    "files": [
+                                        "best.pt",
+                                        "last.pt"
+                                    ],
+                                    "directories": {}
+                                }
+                            }
+                        },
+                        "tree_detection": {
+                            "files": [
+                                "args.yaml"
+                            ],
+                            "directories": {}
+                        },
+                        "tree_detection10": {
+                            "files": [
+                                "args.yaml"
+                            ],
+                            "directories": {}
+                        },
+                        "tree_detection11": {
+                            "files": [
+                                "args.yaml"
+                            ],
+                            "directories": {}
+                        },
+                        "tree_detection12": {
+                            "files": [
+                                "args.yaml"
+                            ],
+                            "directories": {}
+                        },
+                        "tree_detection13": {
+                            "files": [
+                                "F1_curve.png",
+                                "PR_curve.png",
+                                "P_curve.png",
+                                "R_curve.png",
+                                "args.yaml",
+                                "confusion_matrix.png",
+                                "confusion_matrix_normalized.png",
+                                "events.out.tfevents.1734087737.NAMITHA-S.21056.0",
+                                "labels.jpg",
+                                "labels_correlogram.jpg",
+                                "results.csv",
+                                "results.png",
+                                "train_batch0.jpg",
+                                "train_batch1.jpg",
+                                "train_batch2.jpg",
+                                "val_batch0_labels.jpg",
+                                "val_batch0_pred.jpg"
+                            ],
+                            "directories": {
+                                "weights": {
+                                    "files": [
+                                        "best.pt",
+                                        "last.pt"
+                                    ],
+                                    "directories": {}
+                                }
+                            }
+                        },
+                        "tree_detection2": {
+                            "files": [
+                                "args.yaml"
+                            ],
+                            "directories": {}
+                        },
+                        "tree_detection3": {
+                            "files": [
+                                "args.yaml"
+                            ],
+                            "directories": {}
+                        },
+                        "tree_detection4": {
+                            "files": [
+                                "F1_curve.png",
+                                "PR_curve.png",
+                                "P_curve.png",
+                                "R_curve.png",
+                                "args.yaml",
+                                "confusion_matrix.png",
+                                "confusion_matrix_normalized.png",
+                                "events.out.tfevents.1734081260.NAMITHA-S.12016.0",
+                                "labels.jpg",
+                                "labels_correlogram.jpg",
+                                "results.csv",
+                                "results.png",
+                                "train_batch0.jpg",
+                                "train_batch1.jpg",
+                                "train_batch2.jpg",
+                                "val_batch0_labels.jpg",
+                                "val_batch0_pred.jpg"
+                            ],
+                            "directories": {
+                                "weights": {
+                                    "files": [
+                                        "best.pt",
+                                        "last.pt"
+                                    ],
+                                    "directories": {}
+                                }
+                            }
+                        },
+                        "tree_detection5": {
+                            "files": [
+                                "F1_curve.png",
+                                "PR_curve.png",
+                                "P_curve.png",
+                                "R_curve.png",
+                                "args.yaml",
+                                "confusion_matrix.png",
+                                "confusion_matrix_normalized.png",
+                                "events.out.tfevents.1734081374.NAMITHA-S.6044.0",
+                                "labels.jpg",
+                                "labels_correlogram.jpg",
+                                "results.csv",
+                                "results.png",
+                                "train_batch0.jpg",
+                                "train_batch1.jpg",
+                                "train_batch2.jpg",
+                                "val_batch0_labels.jpg",
+                                "val_batch0_pred.jpg"
+                            ],
+                            "directories": {
+                                "weights": {
+                                    "files": [
+                                        "best.pt",
+                                        "last.pt"
+                                    ],
+                                    "directories": {}
+                                }
+                            }
+                        },
+                        "tree_detection6": {
+                            "files": [
+                                "F1_curve.png",
+                                "PR_curve.png",
+                                "P_curve.png",
+                                "R_curve.png",
+                                "args.yaml",
+                                "confusion_matrix.png",
+                                "confusion_matrix_normalized.png",
+                                "events.out.tfevents.1734082315.NAMITHA-S.20068.0",
+                                "labels.jpg",
+                                "labels_correlogram.jpg",
+                                "results.csv",
+                                "results.png",
+                                "train_batch0.jpg",
+                                "train_batch1.jpg",
+                                "train_batch2.jpg",
+                                "val_batch0_labels.jpg",
+                                "val_batch0_pred.jpg"
+                            ],
+                            "directories": {
+                                "weights": {
+                                    "files": [
+                                        "best.pt",
+                                        "last.pt"
+                                    ],
+                                    "directories": {}
+                                }
+                            }
+                        },
+                        "tree_detection7": {
+                            "files": [
+                                "args.yaml"
+                            ],
+                            "directories": {}
+                        },
+                        "tree_detection8": {
+                            "files": [
+                                "args.yaml"
+                            ],
+                            "directories": {}
+                        },
+                        "tree_detection9": {
+                            "files": [
+                                "args.yaml"
+                            ],
+                            "directories": {}
+                        },
+                        "val3": {
+                            "files": [
+                                "F1_curve.png",
+                                "PR_curve.png",
+                                "P_curve.png",
+                                "R_curve.png",
+                                "confusion_matrix.png",
+                                "confusion_matrix_normalized.png",
+                                "val_batch0_labels.jpg",
+                                "val_batch0_pred.jpg"
+                            ],
+                            "directories": {}
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
