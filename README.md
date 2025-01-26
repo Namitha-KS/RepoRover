@@ -40,9 +40,9 @@ python main.py
 
 
 #### Screenshots (Add at least 3)
-![Screenshot1](screenshot1.png)
+![Screenshot1](screenshot1.jpg)
 
-![Screenshot2](screenshot2.png)
+![Screenshot2](screenshot2.jpg)
 
 ### Project Demo
 #### ![Video](https://youtu.be/cOAnP7a3xus?si=Y9zEvP2Fh9fKqhiq)
