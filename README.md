@@ -1,8 +1,7 @@
 
 
 # RepoRover🎯
-
-## Basic Details
+
 ### Team Name: unSupervised
 
 ### Team Members
@@ -46,8 +45,7 @@ python main.py
 ![Screenshot2](screenshot2.png)
 
 ### Project Demo
-#### Video
-
+#### ![Video](https://youtu.be/cOAnP7a3xus?si=Y9zEvP2Fh9fKqhiq)
 
 ---
 Made with ❤️ at TinkerHub
